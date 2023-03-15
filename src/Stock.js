@@ -54,6 +54,7 @@ import Plot from 'react-plotly.js'
     return (
       <div>
         <h1>Stock Market</h1>
+        <h2>Amazon (AMZN) Stock</h2>
         <Plot
           data={[
             {
