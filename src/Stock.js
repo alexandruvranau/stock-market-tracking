@@ -21,6 +21,7 @@ import Plot from 'react-plotly.js'
     //from up here we have access to the values x y because using this is returning us an objet with the state values
     console.log(pointerToThis);
     const API_KEY = '9305CW0N2S2MIOAZ'
+    // for the key we used https://www.alphavantage.co/support/#api-key
     let StockSymbol = 'AMZN'
     let API_Call = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${StockSymbol}&outputsize=compact&apikey=${API_KEY}`
     let stockChartXValuesFunction = []
